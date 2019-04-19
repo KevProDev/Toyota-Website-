@@ -1,0 +1,249 @@
+@import "../../mixins/button";
+
+$textcolor: rgb(143, 141, 141);
+
+.tcare{
+
+  &-center{
+    display:flex;
+    justify-content:center;
+    // width: 1400px;
+    overflow:hidden;
+
+    @media screen and(max-width: 400px){
+      position: relative;
+      height: 40rem;
+      width: 100%;
+    }
+  }
+  &-img{
+
+    cursor:pointer;
+
+    @media screen and(max-width: 350px){
+      position: absolute;
+      width: 400%;
+      height: 75%;
+      top: 0;
+      left: -150%;
+      background-position: 1000px 0;
+    }
+  }
+
+  &-header{
+    margin: 5rem 0;
+    font-size: 1.6rem;
+    font-family: tahoma;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-align:center;
+
+    &::before{
+      position:absolute;
+      top: 150%;
+      left: 50%;
+      transform: translateX(-50%);
+      content:"";
+      height: .1rem;
+      width: 3rem;
+      background: black;
+      color:red;
+    }
+
+    &--2{
+      font-size: 5rem;
+      text-align:center;
+      font-family:Arial, Helvetica, sans-serif;
+            
+      @media screen and(max-width:768px){
+        font-size: 3rem;
+      }
+      @media screen and(max-width:500px){
+        font-size: 2rem;
+      }
+    }
+  }
+  &-content{
+    margin: 2rem 15%;
+    text-align:center;
+    font-size:1.6rem;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: $textcolor;
+
+    &--italic{
+      font-style: italic;
+    }
+  }
+
+  &-flexButton{
+    display:flex;
+    justify-content:space-around;
+    margin: 3rem 25% 10rem 25%;
+
+    @media screen and(max-width: 1000px){
+      margin: 3rem 10% 10rem 10%;
+    }
+    @media screen and(max-width: 768px){
+      flex-direction: column;
+    }
+  }
+
+  &-mainT{
+
+    &-button{
+      @include buttonRed;
+
+      @media screen and(max-width: 768px){
+        margin-bottom: 5rem;
+      }
+
+      &--main{
+        width: 25rem;
+      }
+    }
+  }
+   
+  &-find{
+    &-button{
+      @include buttonGray;
+
+      &--main{
+        // width: 25rem;
+        box-shadow: 2px 2px 5px rgb(184, 181, 181);
+      }
+    }
+  }
+
+  &-info--flex{
+    background:#f3ecec;
+    // padding: 2rem;
+    display:flex;
+    justify-content:center;
+    border-bottom: 2px solid rgb(224, 221, 221);
+
+    @media screen and(max-width: 768px){
+      flex-direction: column;
+      align-items:center;
+    }
+  }
+
+  &-info{
+    display:flex;
+    flex-direction: column;
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    margin: 1rem;
+
+    @media screen and(max-width:768px){
+      width: 100%;
+    }
+
+
+    &--img{
+      width: 100%;
+    }
+    &--header{
+      text-align:center;
+      font-size: 2rem;
+      margin-top: 2rem;
+      letter-spacing: .2rem;
+
+      //iphone 5/SE
+      @media screen and (device-aspect-ratio: 40/71) {
+        padding: 0 .5rem;
+      }
+    }
+    &--header2{
+      font-size: 1.6rem;
+      text-align:center;
+      font-weight:bold;
+      margin: .5rem 0 1.5rem 0;
+
+    }
+    &--main{
+      color: $textcolor;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+      padding: 0 2rem;
+    }
+
+    &--include{
+      padding: 0 2rem;
+      font-size: 1.4rem;
+      font-weight:bold;
+      color: rgb(104, 102, 102);
+    }
+    &--include_li{
+      padding: 0 2rem 1rem 2rem;
+      font-size: 1.4rem;
+      color: $textcolor;
+      line-height: 1.5;
+    }
+  } 
+}
+
+////modal
+
+.toyotacare{
+
+  &-modal{
+    width: 100%;
+    height: 100%;
+  }
+
+  &-header{
+    background: rgba(0, 0, 0, 0.596);
+    height: 8rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color: white;
+    border-bottom: .5px solid rgba(168, 166, 166, 0.822);
+  
+
+ 
+
+    &--text{
+      font-size: 4rem;
+      margin-left: 6rem;
+    }
+    &--close{
+      background:white;
+      color:black;
+      border:none;
+      border-radius: 100%;
+      padding: 1rem 1.5rem;
+      transition: .3s;
+      margin-right: 6rem;
+      &:hover{
+        cursor:pointer;
+        background:red;
+        color:white;
+        transition: .3s;
+      }
+    }
+  }
+}
+
+
+  ///iframe video styles for modal video
+
+  .toyotacare-iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 75%;
+    margin: 0 auto;
+    z-index: 5;
+
+    @media screen and(max-width: 768px){
+      width: 100%;
+      // height: 100%;
+    }
+  }

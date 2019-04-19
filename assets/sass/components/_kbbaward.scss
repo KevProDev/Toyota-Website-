@@ -1,0 +1,89 @@
+@import "../mixins/button";
+
+$cyan: blue;
+$yellow: red;
+$red: #000000;
+
+.kbb{
+  margin: 5rem 0;
+
+  &-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin: 5rem 25% 0 25%;
+    padding: 5rem 0 0 0;
+    border-top: $border;
+  }
+
+  &-img{
+    width: 15rem;
+  }
+  &-info{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    font-size: 2.5rem;
+    font-family: tahoma;
+    font-weight:bold;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    &--spacing{
+      padding: 1rem 0;
+    }
+    &--sup{
+      color:red;
+      font-size: 1.4rem;
+    }
+  }
+  &-button{   
+    @include buttonWhite;
+    margin: 4rem 0 5rem 0;
+  }
+}
+
+
+@media screen and(max-width: 768px){
+  .kbb{
+    &-container{
+      margin: 5rem 5% 0 5%;
+    }
+  }
+}
+
+@media screen and(max-width: 500px){
+  .kbb{
+    &-container{
+      margin: 5rem 2% 0 2%;
+    }
+    &-info{
+      font-size: 1.6rem;
+    }
+  }
+}
+@media screen and(max-width: 400px){
+  .kbb{
+    &-img{
+      width: 10rem;
+    }
+    &-info{
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

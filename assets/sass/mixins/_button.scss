@@ -1,0 +1,124 @@
+@mixin buttonRed{
+
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  position:relative;
+  & > *{
+    cursor:pointer;
+  }
+
+  &--main{
+    border: none;
+    background:red;
+    position:absolute;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 3rem;
+    transition: .3s;
+    outline:none;
+  
+    &:hover{
+      transform: scale(1.1);
+      transition: .3s;
+    }
+    &:active{
+      outline-style:dotted;
+    }
+  }
+  
+  &--text{
+    color:white;
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS';
+    font-weight:bold;
+    text-transform:uppercase;
+    position:relative;
+    // z-index: 1;
+    pointer-events:none;
+    letter-spacing: 1px;
+  }
+}
+
+
+
+@mixin buttonWhite{
+
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  position:relative;
+  & > *{
+    cursor:pointer;
+  }
+
+  &--main{
+    border: 2px solid black;
+    background:white;
+    position:absolute;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 3rem;
+    transition: .3s;
+    outline:none;
+  
+    &:hover{
+      transform: scale(1.1);
+      transition: .3s;
+    }
+    &:active{
+      outline-style:dotted;
+    }
+  }
+  
+  &--text{
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS';
+    font-weight:bold;
+    text-transform:uppercase;
+    position:relative;
+    // z-index: 1;
+    pointer-events:none;
+    letter-spacing: 1px;
+  }
+}
+@mixin buttonGray{
+
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  position:relative;
+  & > *{
+    cursor:pointer;
+  }
+
+  &--main{
+    border: none;
+    background: rgb(240, 237, 237);;
+    position:absolute;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 3rem;
+    transition: .3s;
+    outline:none;
+  
+    &:hover{
+      transform: scale(1.1);
+      transition: .3s;
+    }
+    &:active{
+      outline-style:dotted;
+    }
+  }
+  
+  &--text{
+    font-size: 1.8rem;
+    font-family: 'Trebuchet MS';
+    font-weight:bold;
+    text-transform:uppercase;
+    position:relative;
+    // z-index: 1;
+    pointer-events:none;
+    letter-spacing: 1px;
+  }
+}

@@ -1,0 +1,372 @@
+{
+  "camry": [
+    {
+      "id": 1,
+      "model": "camry",
+      "trim": "L",
+      "color": "red",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 25150,
+      "image": "/imgs/camry/sidefront/red.jpg"
+    },
+    {
+      "id": 2,
+      "model": "camry",
+      "trim": "LE",
+      "color": "red",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 25075,
+      "image": "/imgs/camry/sidefront/red.jpg"
+    },
+    {
+      "id": 3,
+      "model": "camry",
+      "trim": "L",
+      "color": "blue",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 25650,
+      "image": "/imgs/camry/sidefront/blue.jpg"
+    },
+    {
+      "id": 4,
+      "model": "camry",
+      "trim": "L",
+      "color": "gray",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": true,
+      "price": 25225,
+      "image": "/imgs/camry/sidefront/gray.jpg"
+    },
+    {
+      "id": 5,
+      "model": "camry",
+      "trim": "LE",
+      "color": "black",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 25650,
+      "image": "/imgs/camry/sidefront/black.jpg"
+    },
+    {
+      "id": 6,
+      "model": "camry",
+      "trim": "Hybrid LE",
+      "color": "white",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": false,
+      "price": 25575,
+      "image": "/imgs/camry/sidefront/white.jpg"
+    }
+  ],
+  "t86": [
+    {
+      "id": 1,
+      "model": "86",
+      "trim": "L",
+      "color": "red",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 30150,
+      "image": "/imgs/86/sidefront/red.jpg"
+    },
+    {
+      "id": 2,
+      "model": "86",
+      "trim": "LE",
+      "color": "red",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 30075,
+      "image": "/imgs/86/sidefront/red.jpg"
+    },
+    {
+      "id": 3,
+      "model": "86",
+      "trim": "L",
+      "color": "blue",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 30650,
+      "image": "/imgs/86/sidefront/blue.jpg"
+    },
+    {
+      "id": 4,
+      "model": "86",
+      "trim": "L",
+      "color": "gray",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": true,
+      "price": 30225,
+      "image": "/imgs/86/sidefront/gray.jpg"
+    },
+    {
+      "id": 5,
+      "model": "86",
+      "trim": "LE",
+      "color": "black",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 30650,
+      "image": "/imgs/86/sidefront/black.jpg"
+    },
+    {
+      "id": 6,
+      "model": "86",
+      "trim": "Hybrid LE",
+      "color": "white",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": false,
+      "price": 30575,
+      "image": "/imgs/86/sidefront/white.jpg"
+    }
+  ],
+  "corolla": [
+    {
+      "id": 1,
+      "model": "corolla",
+      "trim": "L",
+      "color": "red",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 20150,
+      "image": "/imgs/corolla/sidefront/red.jpg"
+    },
+    {
+      "id": 2,
+      "model": "corolla",
+      "trim": "LE",
+      "color": "red",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 20075,
+      "image": "/imgs/corolla/sidefront/red.jpg"
+    },
+    {
+      "id": 3,
+      "model": "corolla",
+      "trim": "L",
+      "color": "blue",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 20650,
+      "image": "/imgs/corolla/sidefront/blue.jpg"
+    },
+    {
+      "id": 4,
+      "model": "corolla",
+      "trim": "L",
+      "color": "gray",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": true,
+      "price": 20225,
+      "image": "/imgs/corolla/sidefront/gray.jpg"
+    },
+    {
+      "id": 5,
+      "model": "corolla",
+      "trim": "LE",
+      "color": "black",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 20650,
+      "image": "/imgs/corolla/sidefront/black.jpg"
+    },
+    {
+      "id": 6,
+      "model": "corolla",
+      "trim": "Hybrid LE",
+      "color": "white",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": false,
+      "price": 20575,
+      "image": "/imgs/corolla/sidefront/white.jpg"
+    }
+  ],
+  "avalon": [
+    {
+      "id": 1,
+      "model": "avalon",
+      "trim": "L",
+      "color": "red",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 35150,
+      "image": "/imgs/avalon/sidefront/red.jpg"
+    },
+    {
+      "id": 2,
+      "model": "avalon",
+      "trim": "LE",
+      "color": "red",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 35075,
+      "image": "/imgs/avalon/sidefront/red.jpg"
+    },
+    {
+      "id": 3,
+      "model": "avalon",
+      "trim": "L",
+      "color": "blue",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 35650,
+      "image": "/imgs/avalon/sidefront/blue.jpg"
+    },
+    {
+      "id": 4,
+      "model": "avalon",
+      "trim": "L",
+      "color": "gray",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": true,
+      "price": 35225,
+      "image": "/imgs/avalon/sidefront/gray.jpg"
+    },
+    {
+      "id": 5,
+      "model": "avalon",
+      "trim": "LE",
+      "color": "black",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 35650,
+      "image": "/imgs/avalon/sidefront/black.jpg"
+    },
+    {
+      "id": 6,
+      "model": "avalon",
+      "trim": "Hybrid LE",
+      "color": "white",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": false,
+      "price": 35575,
+      "image": "/imgs/avalon/sidefront/white.jpg"
+    }
+  ],
+  "yaris": [
+    {
+      "id": 1,
+      "model": "yaris",
+      "trim": "L",
+      "color": "red",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 18150,
+      "image": "/imgs/yaris/sidefront/red.jpg"
+    },
+    {
+      "id": 2,
+      "model": "yaris",
+      "trim": "LE",
+      "color": "red",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 18075,
+      "image": "/imgs/yaris/sidefront/red.jpg"
+    },
+    {
+      "id": 3,
+      "model": "yaris",
+      "trim": "L",
+      "color": "blue",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": true,
+      "wheelLocks": false,
+      "price": 18650,
+      "image": "/imgs/yaris/sidefront/blue.jpg"
+    },
+    {
+      "id": 4,
+      "model": "yaris",
+      "trim": "L",
+      "color": "gray",
+      "engine": "8 Speed Automatic",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": true,
+      "price": 18225,
+      "image": "/imgs/yaris/sidefront/gray.jpg"
+    },
+    {
+      "id": 5,
+      "model": "yaris",
+      "trim": "LE",
+      "color": "black",
+      "engine": "8 Speed Manual",
+      "cargoTote": false,
+      "leatherMats": true,
+      "wheelLocks": true,
+      "price": 18650,
+      "image": "/imgs/yaris/sidefront/black.jpg"
+    },
+    {
+      "id": 6,
+      "model": "yaris",
+      "trim": "Hybrid LE",
+      "color": "white",
+      "engine": "8 Speed Manual",
+      "cargoTote": true,
+      "leatherMats": false,
+      "wheelLocks": false,
+      "price": 18575,
+      "image": "/imgs/yaris/sidefront/white.jpg"
+    }
+  ]
+}
