@@ -5,7 +5,7 @@ import { buildCar } from "../redux/actions";
 
 import camrySide from "../../../images/media/side.5fe876d9.png"
 import camryFront from "../../../images/media/front.fd9563da.png"
-import t86Side from "../../../images/media/side.b51c45a4.PNG"
+import t86Side from "../../../../imgs/media/side.b51c45a4.PNG"
 import t86Front from "../../../images/media/front.51b41766.PNG"
 import corollaSide from "../../../images/media/side.14472069.PNG"
 import corollaFront from "../../../images/media/front.ba1c6533.PNG"

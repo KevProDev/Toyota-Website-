@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 import SelectCars from "./SelectCars";
 
-import Toyota from "../../../../imgs/media/toyota-logo.png";
+import Toyota from "../../../images/media/toyota-logo.png";
 
 class Nav extends React.Component {
 

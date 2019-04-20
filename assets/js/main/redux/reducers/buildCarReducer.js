@@ -2,7 +2,7 @@ const allCars = () => {
   return [
     { 
       model: "camry", 
-      img: "/imgs/camry/sidefront/red.jpg",
+      img: "/1/imgs/camry/sidefront/red.jpg",
       carAngle: 0,
       color:"red",
       engine: 0,
@@ -11,7 +11,7 @@ const allCars = () => {
     },
     { 
       model: "86", 
-      img: "/imgs/86/sidefront/white.jpg",
+      img: "/1/imgs/86/sidefront/white.jpg",
       carAngle: 0,
       color:"white",
       engine: 0,
@@ -20,7 +20,7 @@ const allCars = () => {
     },
     { 
       model: "corolla", 
-      img: "/imgs/corolla/sidefront/blue.jpg",
+      img: "/1/imgs/corolla/sidefront/blue.jpg",
       carAngle: 0,
       color:"blue",
       engine: 0,
@@ -30,7 +30,7 @@ const allCars = () => {
     },
     { 
       model: "avalon", 
-      img: "/imgs/avalon/sidefront/black.jpg",
+      img: "/1/imgs/avalon/sidefront/black.jpg",
       carAngle: 0,
       color:"black",
       engine: 0,
@@ -39,7 +39,7 @@ const allCars = () => {
     },
     { 
       model: "yaris", 
-      img: "/imgs/yaris/sidefront/gray.jpg",
+      img: "/1/imgs/yaris/sidefront/gray.jpg",
       carAngle: 0,
       color:"gray",
       engine: 0,

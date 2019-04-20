@@ -100,10 +100,10 @@ class BuildCarPageAvalon extends React.Component{
   rotateCarImage = (e) => {
     e.preventDefault();
     
-    let side = `/imgs/${this.state.model}/side/${this.state.color}.jpg`;
-    let back = `/imgs/${this.state.model}/back/${this.state.color}.jpg`;
-    let front = `/imgs/${this.state.model}/front/${this.state.color}.jpg`;
-    let sideFront = `/imgs/${this.state.model}/sidefront/${this.state.color}.jpg`;
+    let side = `/1/imgs/${this.state.model}/side/${this.state.color}.jpg`;
+    let back = `/1/imgs/${this.state.model}/back/${this.state.color}.jpg`;
+    let front = `/1/imgs/${this.state.model}/front/${this.state.color}.jpg`;
+    let sideFront = `/1/imgs/${this.state.model}/sidefront/${this.state.color}.jpg`;
     let allCarAngles = [front, back, side, sideFront];
 
     let count = this.state.carAngle;

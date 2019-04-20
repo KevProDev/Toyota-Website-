@@ -21,7 +21,7 @@ class BuildCarGallery extends React.Component{
   };
 
   changeImageCar = (car, number) => {
-    const image = window.location.origin + `/imgs/gallery/${car}/${car}${number}.jpg`;
+    const image = window.location.origin + `/1/imgs/gallery/${car}/${car}${number}.jpg`;
     return image;
   };
 
